@@ -1,6 +1,6 @@
 # LoL Match Lab
 
-Aplicação full-stack para analytics de LoL competitivo usando FastAPI, React, TypeScript e ECharts.
+App fullstack para analytics de LoL competitivo usando FastAPI, React, TypeScript e ECharts.
 
 ## Recursos
 
@@ -18,28 +18,3 @@ Aplicação full-stack para analytics de LoL competitivo usando FastAPI, React, 
 - O perfil de estilo influencia kills, ritmo, gold, torres, dragões e barões
 
 Quando uma coluna não existe na fonte, a interface mostra N/D; o programa não inventa dados.
-
-## Executar no Windows
-
-Abra um terminal na pasta do projeto:
-
-    cd backend
-    run.bat
-
-Na primeira execução aguarde o download e a importação. Depois abra outro terminal:
-
-    cd frontend
-    npm install
-    npm run dev
-
-Acesse http://localhost:5173. A documentação da API fica em http://localhost:8000/docs.
-
-## Atualização
-
-O arquivo do ano atual é baixado quando ainda não existe. Para forçar a atualização, use POST /data/refresh na documentação da API ou apague o CSV em backend/data antes de iniciar.
-
-Outra URL ou ano podem ser configurados com OE_CSV_URL e OE_YEAR.
-
-## Limitação
-
-Todos os dados significa todas as colunas fornecidas pelo CSV. Eventos não publicados pela fonte não podem ser reconstruídos com precisão. As projeções são estatísticas, não resultados garantidos.
