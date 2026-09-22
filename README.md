@@ -4,8 +4,6 @@ App fullstack para analytics de LoL competitivo usando FastAPI, React, TypeScrip
 
 ## Recursos
 
-- Download e importação automática do CSV anual do Oracle's Elixir ao iniciar
-- Cache local para funcionar com o último CSV salvo
 - Filtro por liga competitiva e times da liga
 - Aba Confrontos de hoje com todas as ligas e horário de Brasília
 - Jogos de hoje já registrados são lidos do CSV; confrontos futuros usam a agenda pública
@@ -16,5 +14,3 @@ App fullstack para analytics de LoL competitivo usando FastAPI, React, TypeScrip
 - Estilo dos times: agressividade, early game, objetivos, ritmo e visão
 - Estilo dos jogadores: agressividade, participação, farm, dano e visão
 - O perfil de estilo influencia kills, ritmo, gold, torres, dragões e barões
-
-Quando uma coluna não existe na fonte, a interface mostra N/D; o programa não inventa dados.
