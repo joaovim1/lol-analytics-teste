@@ -6,3 +6,6 @@
 *.pyc
 .env
 .vscode/
+**/.venv312/
+.venv/
+.venv312/

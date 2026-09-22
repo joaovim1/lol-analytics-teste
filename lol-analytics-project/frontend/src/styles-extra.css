@@ -43,4 +43,56 @@
     grid-template-columns: 1fr;
   }
 }
-.todaymatch{display:flex;align-items:center;justify-content:space-between;gap:18px;background:#0c1017;border:1px solid #252c38;border-radius:12px;padding:16px}.todaymatch small,.todaymatch strong,.todaymatch span{display:block}.todaymatch small,.todaymatch span{color:#818ca0;font-size:12px}.todaymatch strong{font-size:17px;margin:5px 0}.todaymatch .primary{min-width:190px;margin:0}.todaymatch button:disabled{opacity:.45;cursor:not-allowed}.empty.compact{padding:35px}
+.todaymatch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  background: #0c1017;
+  border: 1px solid #252c38;
+  border-radius: 12px;
+  padding: 16px;
+}
+.todaymatch small,
+.todaymatch strong,
+.todaymatch span {
+  display: block;
+}
+.todaymatch small,
+.todaymatch span {
+  color: #818ca0;
+  font-size: 12px;
+}
+.todaymatch strong {
+  font-size: 17px;
+  margin: 5px 0;
+}
+.todaymatch .primary {
+  min-width: 190px;
+  margin: 0;
+}
+.todaymatch button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.empty.compact {
+  padding: 35px;
+}
+.import-progress {
+  width: min(480px, 90%);
+  height: 10px;
+  margin: 22px auto 10px;
+  overflow: hidden;
+  background: #252c38;
+  border-radius: 20px;
+}
+.import-progress i {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, #6776ff, #63d9b1);
+  transition: width 0.35s ease;
+}
+.csv-import { margin: 16px 0; padding: 16px; border: 1px solid #334155; border-radius: 12px; }
+.csv-import label { display: block; font-weight: 600; margin-bottom: 10px; }
+.csv-import p { color: #94a3b8; font-size: 14px; margin: 10px 0 0; }
+.csv-import input { max-width: 100%; }
